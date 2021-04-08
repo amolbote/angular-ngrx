@@ -6,9 +6,9 @@ import { Component, OnInit, Output, EventEmiter } from "@angular/core";
   styleUrls: ["./counter-buttons.component.css"]
 })
 export class CounterButtonsComponent implements OnInit {
-  @Output() increment = new EventEmiter();
-  @Output() decrement = new EventEmiter();
-  @Output() reset = new EventEmiter();
+  @Output() increment = new EventEmiter<void>();
+  @Output() decrement = new EventEmiter<void>();
+  @Output() reset = new EventEmiter<void>();
 
   constructor() {}
 

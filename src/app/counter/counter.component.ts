@@ -10,7 +10,7 @@ export class CounterComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-  public onIncrement() {
+  onIncrement() {
     this.counter++;
   }
   onDecrement() {

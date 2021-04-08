@@ -13,7 +13,7 @@ export class CounterComponent implements OnInit {
   onIncrement() {
     this.counter++;
   }
-  onDecrement() {
+  OnDecrement() {
     this.counter--;
   }
   onReset() {

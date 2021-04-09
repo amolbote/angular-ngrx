@@ -1,4 +1,4 @@
-import { state, action, createReducer, on } from "@ngrx/store";
+import {createReducer, on } from "@ngrx/store";
 import { initialState } from "./counter.state";
 import {increment, decrement, reset } from "./counter.action";
 function _counterReducer = createReducer(initialState, 

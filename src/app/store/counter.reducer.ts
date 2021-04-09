@@ -20,7 +20,7 @@ on(decrement, state => {
       counter : 0
     }
   })
-  );
+);
 
 export function counterReducer(state, actions) {
   return _counterReducer(state, action);
